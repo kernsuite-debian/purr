@@ -1,3 +1,9 @@
+purr (1.3.1-1kern2) xenial; urgency=medium
+
+  * update signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 16:30:14 +0200
+
 purr (1.3.1-1kern1) xenial; urgency=medium
 
   * first kern release

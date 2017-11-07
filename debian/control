@@ -11,3 +11,10 @@ Package: python-purr
 Architecture: any
 Depends: ${python:Depends}, ${misc:Depends}, python-kittens
 Description: Data reduction logging tool, Useful for remembering reductions 
+
+Package: purr
+Architecture: any
+Depends: python-purr
+Description: Data reduction logging tool, Useful for remembering reductions 
+
+
