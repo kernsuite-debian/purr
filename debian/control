@@ -14,7 +14,7 @@ Description: Data reduction logging tool, Useful for remembering reductions
 
 Package: purr
 Architecture: any
-Depends: python-purr
+Depends: ${misc:Depends}, python, python-purr
 Description: Data reduction logging tool, Useful for remembering reductions 
 
 
