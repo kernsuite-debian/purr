@@ -1,3 +1,10 @@
+purr (1.3.1-1kern4) bionic; urgency=medium
+
+  [ build for kern-4 (bionic)
+  * kittens package has been renamed
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 10 May 2018 14:32:47 +0200
+
 purr (1.3.1-1kern3) xenial; urgency=medium
 
   * actually install the files
