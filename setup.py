@@ -22,13 +22,13 @@ for scheme in INSTALL_SCHEMES.values():
         scheme['data'] = scheme['purelib']
 
 setup(name='purr',
-      version='1.3.0',
+      version='1.4.0',
       description='Data reduction logging tool, Useful for remembering reductions',
       author='Oleg Smirnov',
       author_email='Oleg Smirnov <osmirnov@gmail.com>',
       url='https://github.com/ska-sa/purr',
       packages=['Purr', 'Purr/Plugins', 'Purr/Plugins/local_pychart', 'Purr/Plugins/local_pychart/afm'],
-      requires=['kittens', 'PyQt4', 'PIL', 'scipy', 'pyfits'],
+      requires=['kittens', 'PyQt4', 'PIL', 'scipy', 'astropy', 'future'],
       scripts=['Purr/purr.py', 'Purr/purr'],
       data_files=data_files,
      )
