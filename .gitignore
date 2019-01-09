@@ -1,2 +1,7 @@
 build
-
+MANIFEST
+.mypy_cache/
+dist/
+*.pyc
+.venv*/
+purr.egg-info/
