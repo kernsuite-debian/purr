@@ -1,3 +1,11 @@
+purr (1.4.1-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * add ignore file
+  * New upstream version 1.4.1
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 09 Jan 2019 10:55:47 +0200
+
 purr (1.4.0-1) bionic; urgency=medium
 
   [ Gijs Molenaar ]
