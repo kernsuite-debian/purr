@@ -1,3 +1,10 @@
+purr (1.4.3-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * New upstream version 1.4.3
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 15 Jan 2019 12:38:07 +0200
+
 purr (1.4.2-1) bionic; urgency=medium
 
   [ Gijs Molenaar ]
