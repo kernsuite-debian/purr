@@ -18,11 +18,11 @@ for dirpath, dirnames, filenames in os.walk('Purr'):
 # Tell distutils not to put the data_files in platform-specific installation
 # locations. See here for an explanation:
 # http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/2105ee4d9e8042cb
-for scheme in INSTALL_SCHEMES.values():
+for scheme in list(INSTALL_SCHEMES.values()):
         scheme['data'] = scheme['purelib']
 
 setup(name='purr',
-      version='1.4.3',
+      version='1.5.0',
       description='Data reduction logging tool, Useful for remembering reductions',
       author='Oleg Smirnov',
       author_email='Oleg Smirnov <osmirnov@gmail.com>',
