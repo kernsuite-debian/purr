@@ -1,2 +1,3 @@
 version=3
-https://github.com/ska-sa/purr/releases /ska-sa/purr/archive/v(\d[\.\d]+).tar.gz
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/<project>-$1\.tar\.gz/ \
+  https://github.com/ska-sa/purr/tags .*/v?(\d\S*)\.tar\.gz
