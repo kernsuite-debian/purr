@@ -1,29 +1,17 @@
 Source: purr
 Section: python
 Priority: extra
-Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 9),
- python-all,
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>= 11),
+ dh-python,
  python3-all,
- python-pil,
  python3-pil,
- python-scipy,
  python3-scipy,
- python-future,
  python3-future,
- python-qt4,
- python3-pyqt4,
- python-astro-kittens,
  python3-astro-kittens
-Standards-Version: 3.9.2
+Standards-Version: 4.5.0
 Homepage: https://github.com/ska-sa/purr
-X-Python-Version: 2.7
-X-Python3-Version: 3.6
-
-Package: python-purr
-Architecture: any
-Depends: ${python:Depends}, ${misc:Depends}, python-astro-kittens
-Description: Data reduction logging tool, Useful for remembering reductions
+X-Python3-Version: >=3.6
 
 Package: python3-purr
 Architecture: any
@@ -32,5 +20,5 @@ Description: Data reduction logging tool, Useful for remembering reductions
 
 Package: purr
 Architecture: any
-Depends: ${misc:Depends}, python, python-purr
+Depends: ${misc:Depends}, python3-purr
 Description: Data reduction logging tool, Useful for remembering reductions 
