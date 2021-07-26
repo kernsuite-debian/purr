@@ -6,7 +6,7 @@ purr (1.5.2-1kern1) focal; urgency=medium
   * Drop Py2 support
   * Package without Qt4
 
- --  <athanaseus@upload.kernsuite.info>  Tue, 25 May 2021 13:23:54 +0000
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 25 May 2021 13:23:54 +0000
 
 purr (1.5.0-1kern1) bionic; urgency=medium
 
