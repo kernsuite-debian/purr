@@ -1,3 +1,10 @@
+purr (1.5.3-1kern1) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 1.5.3
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 11 Oct 2022 13:49:31 +0000
+
 purr (1.5.2-1kern1) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
