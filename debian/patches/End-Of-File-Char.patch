@@ -5,10 +5,10 @@ Description: <short summary of the patch>
  information below has been extracted from the changelog. Adjust it or drop
  it.
  .
- purr (1.5.3-1kern1) focal; urgency=medium
+ purr (1.5.3-1kern2) jammy; urgency=medium
  .
    [ Athanaseus Javas Ramaila ]
-   * New upstream version 1.5.3
+   * Build for jammy
 Author: KERN packaging <packaging@kernsuite.info>
 
 ---
@@ -22,7 +22,7 @@ Bug-Debian: https://bugs.debian.org/<bugnumber>
 Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
 Forwarded: <no|not-needed|url proving that it has been forwarded>
 Reviewed-By: <name and email of someone who approved the patch>
-Last-Update: 2022-10-12
+Last-Update: 2024-04-07
 
 --- purr-1.5.3.orig/Purr/Plugins/local_pychart/afm/dir.py
 +++ purr-1.5.3/Purr/Plugins/local_pychart/afm/dir.py
