@@ -1,17 +1,14 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
-#
-# Uncomment this to turn on verbose mode.
+
 export DH_VERBOSE=1
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild --parallel
 
-override_dh_install:
-	dh_install
-	# remove files we don't want to install
-	find $(CURDIR)/debian/tmp/ -name '*egg-info' -exec rm -r '{}' ';'
-
+override_dh_missing:
+	# This tells debhelper to ignore the egg-info files and not fail the build
+	dh_missing --exclude=.egg-info
 
 # Don't run tests
 override_dh_auto_test:

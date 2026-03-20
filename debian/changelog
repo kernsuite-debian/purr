@@ -1,3 +1,10 @@
+purr (1.5.3-1kern3) noble; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Build for noble
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 20 Mar 2026 10:37:17 +0100
+
 purr (1.5.3-1kern2) jammy; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
